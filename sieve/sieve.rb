@@ -31,4 +31,4 @@ class Sieve
 
 end
 
-Sieve.new(10).primes
+# Sieve.new(10).primes
