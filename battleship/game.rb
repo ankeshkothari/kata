@@ -260,9 +260,6 @@ class BattleshipGame
 
   def play
     display
-    p @player.destroyer
-    p @player.cruiser
-    p @player.battleship
 
     loop do
       @player.mark
