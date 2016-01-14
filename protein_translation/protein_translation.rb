@@ -9,7 +9,7 @@ class Translation
     "UAU" => "Tyrosine", "UAC" => "Tyrosine", 
     "UGU" => "Cysteine", "UGC" => "Cysteine", 
     "UGG" => "Tryptophan", 
-    "UAA" => "STOP", "UAG" => "STOP", "UGA" => "STOP"}
+    "UAA" => "STOP", "UAG" => "STOP", "UGA" => "STOP" }
 
   def self.of_codon(codon)
     raise InvalidCodonError if CODON_PROTEIN.has_key?(codon) == false
